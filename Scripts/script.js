@@ -1,3 +1,4 @@
+// Part One
 // Here is the information you have been given:
 // The area in which the plants are contained is circular, with a radius of 5 meters.
 // The formula for calculating the area of a circle is PI multiplied by the radius, squared:
@@ -29,12 +30,14 @@ const area = PI * radius * radius;
 console.log(area);
 // about 78.5 square meters available 
 
-let numberOfWeeks = 1;
+let numberOfWeeks = 2;
 let numberOfPlants = 20 * (2 * numberOfWeeks);
 
 console.log(numberOfPlants)
 
 let areaPerPlant = 0.8;
+
+console.log(`After ${numberOfWeeks} weeks, there are ${numberOfPlants} plants. The plants need to be`)
 
 if ((areaPerPlant * numberOfPlants) > (area * .8)){
     console.log('PRUNED')
@@ -47,3 +50,6 @@ if ((areaPerPlant * numberOfPlants) > (area * .8)){
 // After Week One there are 40 Plants -- PLANTED
 // After Week Two there are 80 Plants -- PRUNED
 // After Week Three there are 120 Plants -- PRUNED
+
+
+
