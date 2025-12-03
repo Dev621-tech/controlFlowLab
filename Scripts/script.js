@@ -22,6 +22,8 @@
 
 // Within your submission, include the results for 1, 2, and 3 weeks of growth as inputs.
 
+try {
+    
 
 const PI = 3.1415;
 const radius = 5;
@@ -51,5 +53,7 @@ if ((areaPerPlant * numberOfPlants) > (area * .8)){
 // After Week Two there are 80 Plants -- PRUNED
 // After Week Three there are 120 Plants -- PRUNED
 
-
+} catch (error) {
+    console.error(error)
+}
 
